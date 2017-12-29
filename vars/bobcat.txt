@@ -1,0 +1,1 @@
+Triggers a Maven build of a Bobcat project. After a run always archives the results and executes junit step.

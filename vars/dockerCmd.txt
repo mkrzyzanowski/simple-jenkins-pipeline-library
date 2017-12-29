@@ -1,0 +1,3 @@
+Runs docker command with root permissions, requires DOCKER environment variable set.
+
+Intended to be used with withDocker step.

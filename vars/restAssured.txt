@@ -1,0 +1,1 @@
+Triggers a Gradle build of a RestAssured project. After a run always archives the results and executes junit step.

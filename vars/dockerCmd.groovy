@@ -1,5 +1,5 @@
 def call(args) {
     assert DOCKER != null
     assert args != null
-    sh "sudo ${DOCKER}/docker ${args}"
+    return sh(script: "sudo ${DOCKER}/docker ${args}", returnStdout: true)
 }
